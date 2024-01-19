@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://wpp7bo2jg8op"]
+
+[ext_resource type="Script" path="res://game/card_system/card_db.gd" id="1_7rlpr"]
+
+[node name="CardDB" type="Node"]
+script = ExtResource("1_7rlpr")

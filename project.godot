@@ -14,6 +14,12 @@ config/name="Card Game"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+CC="*res://game/card_system/card_constants.tscn"
+CardHighlighter="*res://game/card_system/card_highlighter.tscn"
+CardDB="*res://game/card_system/card_db.tscn"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5lde5c3hfo73"]
+
+[ext_resource type="Script" path="res://game/card_system/task_queue.gd" id="1_2wov5"]
+
+[node name="TaskQueue" type="Node2D"]
+script = ExtResource("1_2wov5")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxbkv68glso0g"]
+
+[ext_resource type="Script" path="res://game/card_system/card_attribute.gd" id="1_eb3lf"]
+
+[node name="CardAttribute" type="Node2D"]
+script = ExtResource("1_eb3lf")

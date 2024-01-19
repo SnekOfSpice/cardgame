@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bk0er5kikvgok"]
+
+[ext_resource type="Script" path="res://game/card_system/card_constants.gd" id="1_qqj6b"]
+
+[node name="CardConstants" type="Node"]
+script = ExtResource("1_qqj6b")

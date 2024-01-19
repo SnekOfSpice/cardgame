@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://wixnahejobc6"]
+
+[ext_resource type="Script" path="res://game/card_system/card_attributes.gd" id="1_vssbc"]
+
+[node name="CardAttributes" type="Node2D"]
+script = ExtResource("1_vssbc")

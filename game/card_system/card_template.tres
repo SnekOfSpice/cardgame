@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://ccwtsbnbyllxy"]
+
+[sub_resource type="GDScript" id="GDScript_63cju"]
+script/source = "extends Resource
+class_name  CardTemplate
+
+var name:String
+var description:String
+var type:String
+var texture:Texture2D
+var card_script:Array
+#var visual_instance:CardVisuals
+
+func _init(
+	p_name:=\"cardname\",
+	p_description:=\"card\",
+	p_type:=\"card\",
+	p_texture:Texture2D=null,
+	p_card_script:=[],
+) -> void:
+	name = p_name
+	description = p_description
+	type = p_type
+	texture = p_texture
+	card_script = p_card_script"
+
+[resource]
+script = SubResource("GDScript_63cju")

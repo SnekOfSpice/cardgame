@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://catxim6f4gahq"]
+
+[ext_resource type="Script" path="res://game/card_system/card_highlighter.gd" id="1_ntb56"]
+
+[node name="CardHighlighter" type="Node"]
+script = ExtResource("1_ntb56")
